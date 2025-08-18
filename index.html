@@ -3,24 +3,25 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>TechCorp - Soluciones Tecnológicas</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
     <style>
       .hero-section {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         color: white;
         padding: 100px 0;
       }
-      /* .future-icon i .bi{
-        width: 500px !important;
-        height: 500px !important;
-        font-size: 3rem;
-        color: #007bff;
-      } */
+      .feature-icon img {
+        width: 64px;
+        height: 64px;
+      }
     </style>
   </head>
   <body>
@@ -54,112 +55,173 @@
       </div>
     </nav>
     <!-- contenido -->
-  <section id="inicio" class="hero-section">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-          <h2 class="display-4 fw-bold mb-4">Soluciones Tecnologicas innovadoras</h2>
-          <p class="lead mb-4">transformamos tu negocio con las últimas tecnologías y un enfoque centrado en el cierre</p>
-          <button type="button" class="btn btn-light btn-lg me-3">Comenzar</button>
-          <button type="button" class="btn btn-outline-light btn-lg">Saber más</button>
-      </div>
-      <div class="col-lg-6">
-        <div class="bg-light rounder" style="height: 300px; display: flex; align-items: center; justify-content: center;">
-          <span class="text-muted">Imagen</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- servicios -->
-   <section id="servicios" class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center mb-5">
-          <h2 class="display-5 fw-bold">Nuestros Servicios</h2>
-          <p class="lead">Ofrecemos Soluciones completas para tu empresa </p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-4 mb-4">
-          <div class="card h-100 text-center">
-            <div class="card-body">
-              <div class="feature-icon mb-3"><i class="bi bi-pc-display-horizontal"></i></div>
-              <h5 class="card-title">Desarrollo Web</h5>
-              <p class="card-text">Creamos sitios web modernos y responsivos utilizando las ultimas tecnologias</p>
-            </div>
+    <section id="inicio" class="hero-section">
+      <div class="container py-3">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h2 class="display-4 fw-bold mb-4">
+              Soluciones Tecnologicas innovadoras
+            </h2>
+            <p class="lead mb-4">
+              transformamos tu negocio con las últimas tecnologías y un enfoque
+              centrado en el cierre
+            </p>
+            <button type="button" class="btn btn-light btn-lg me-3">
+              Comenzar
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg">
+              Saber más
+            </button>
           </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card h-100 text-center">
-            <div class="card-body">
-              <div class="feature-icon mb-3"><i class="bi bi-phone-fill"></i></div>
-              <h5 class="card-title">Apps Moviles</h5>
-              <p class="card-text">Desarrollamos aplicaciones móviles nativas e híbridas para IOS y Android.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card h-100 text-center">
-            <div class="card-body">
-              <div class="feature-icon mb-3"><i class="bi bi-cloud"></i></div>
-              <h5 class="card-title">Cloud Solutions</h5>
-              <p class="card-text">Migramos y optimizamos tu infraestructuras en la nube</p>
+
+          <div class="col-lg-6">
+            <div
+              class="bg-light rounded"
+              style="
+                height: 300px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <span class="text-muted">Imagen</span>
             </div>
           </div>
         </div>
       </div>
-   </section>
-<!-- contactanos -->
-<section id="contacto" class="py-5 bg-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 m-auto">
-        <h2 class="text-center mb4">Contáctanos</h2>
-        <form action="">
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <label for="email" class="form-label">Nombre: </label>
-              <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+    </section>
+
+    <!-- servicios -->
+    <section id="servicios" class="py-5">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5">
+            <h2 class="display-5 fw-bold">Nuestros Servicios</h2>
+            <p class="lead">Ofrecemos Soluciones completas para tu empresa</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <div class="feature-icon mb-3">
+                  <img
+                    src="img/monitor.png"
+                    alt="Icono de computadora de escritorio"
+                  />
+                </div>
+                <h5 class="card-title">Desarrollo Web</h5>
+                <p class="card-text">
+                  Creamos sitios web modernos y responsivos utilizando las
+                  ultimas tecnologias
+                </p>
+              </div>
             </div>
-            <div class="col-md-6 mb-3">
-              <label for="email" class="form-label">Email: </label>
-              <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" required>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <div class="feature-icon mb-3">
+                  <img src="img/movil.png" alt="Icono de móvil" />
+                </div>
+                <h5 class="card-title">Apps Moviles</h5>
+                <p class="card-text">
+                  Desarrollamos aplicaciones móviles nativas e híbridas para IOS
+                  y Android.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="mb-3">
-            <label for="mensaje" class="form-label">Asunto: </label>
-            <input class="form-control" id="asunto" placeholder="Asunto" required>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <div class="feature-icon mb-3">
+                  <img src="img/cloud_computer.png" alt="cloud-computer" />
+                </div>
+                <h5 class="card-title">Cloud Solutions</h5>
+                <p class="card-text">
+                  Migramos y optimizamos tu infraestructuras en la nube
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="mb-3">
-            <label for="mensaje" class="form-label">Mensaje: </label>
-            <textarea class="form-control" id="mensaje" rows="5" placeholder="Ingresa tu mensaje" required></textarea>
+        </div>
+      </div>
+    </section>
+    <!-- contactanos -->
+    <section id="contacto" class="py-5 bg-light">
+      <div class="container my-2">
+        <div class="row">
+          <div class="col-lg-8 m-auto">
+            <h2 class="text-center mb-4">Contáctanos</h2>
+            <form action="">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="email" class="form-label">Nombre: </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nombre"
+                    placeholder="Ingresa tu nombre"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="email" class="form-label">Email: </label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Ingresa tu email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Asunto: </label>
+                <input
+                  class="form-control"
+                  id="asunto"
+                  placeholder="Asunto"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje: </label>
+                <textarea
+                  class="form-control"
+                  id="mensaje"
+                  rows="5"
+                  placeholder="Ingresa tu mensaje"
+                  required
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-lg">
+                  Enviar Mensaje
+                </button>
+              </div>
+            </form>
           </div>
-          <div class="text-center">
-            <button type="submit" class="btn btn-primary btn-lg">Enviar Mensaje</button>
-        </form>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<footer class="bg-dark text-light py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h5>TechCorp</h5>
-        <p>Soluciones tecnológicas innovadoras para tu empresa.</p>
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>TechCorp</h5>
+            <p>Soluciones tecnológicas innovadoras para tu empresa.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <p>&copy; 2024 TechCorp. Todos los derechos reservados.</p>
+          </div>
+        </div>
       </div>
-      <div class="col-md-6 text-md-end">
-        <p>&copy; 2024 TechCorp. Todos los derechos reservados.</p>
-      </div>
-    </div>
-  </div>
-  </footer>
-   
+    </footer>
 
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
-  </html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
